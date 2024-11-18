@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Sigma-Ten's"</title>
+    <meta property="og:image" content="https://img5.pic.in.th/file/secure-sv1/image_2024-11-18_224355456.png" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta property="og:title" content="ZipherHID installer" />
+    <meta name="author" content="Nickqme71" />
+    <meta property="og:description" content="Sigma Rule for sigma." />
+    <meta name="description" content="Sigma Rule for sigma." />
+    <link rel="icon" type="image/png" href="https://img5.pic.in.th/file/secure-sv1/image_2024-11-18_224223099.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+
+    <style>
+        @font-face {
+            font-family: 'iconic';
+            src: url('font/FC Iconic Regular.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+    
+        * {
+            --textcolor: rgb(243, 238, 255);
+            --text1: rgb(219, 204, 255);
+            --text: rgb(251, 250, 255);
+            --bgcolor: linear-gradient(to bottom, #150a1d, #1d002e);
+            --success: rgb(144, 84, 255);
+            --failure: #C9004C;
+            --p: rgb(109, 0, 235);
+            --bgf: #16002b;
+            --bg: #a200ff1a;
+        }
+        
+        @font-face {
+            font-family: 'iconic';
+            src: url('font/FC Iconic Italic.otf') format('opentype');
+            font-weight: normal;
+            font-style: italic;
+        }
+    
+        @font-face {
+            font-family: 'iconic';
+            src: url('font/FC Iconic Bold.otf') format('opentype');
+            font-weight: bold;
+            font-style: normal;
+        }
+    
+        @font-face {
+            font-family: 'iconic';
+            src: url('font/FC Iconic Bold Italic.otf') format('opentype');
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        body {
+            font-family: "iconic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bgf);
+            line-height: auto;
+        }
+        header {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: var(--text);
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        section {
+            padding: 2rem 1rem;
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--bg);
+            margin-bottom: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.5 ease-out;
+        }
+        section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        section h2 {
+            font-weight: bold;
+            font-size: 30px;
+            margin-bottom: 0.45rem;
+            color: var(--textcolor)
+        }
+        section p {
+            font-weight: normal;
+            font-size: 25px;
+            margin-left: 20px;
+            margin-top: 0;
+            color: var(--textcolor);
+        }
+        .con {
+            text-align: left;
+        }
+        section blockquote {
+            font-size: 25px;
+            font-style: italic;
+            margin-top: -0.1rem;
+            color: #e8cfff;
+            border-left: 4px solid #9900ff;
+            padding-left:0.45rem;
+        }
+        .footer {
+            text-align: center;
+            width: 100%;
+            font-family: iconic;
+            align-items: center;
+            border-top: 1px solid #66089c;
+            padding-top: 23px;
+            font-size: 0.9rem;
+        }
+
+        .footer .initiative {
+            font-style: italic;
+            margin-top: 16px;
+        }
+        .row {
+            font-family: iconic;
+            margin: 60px 0;
+        }
+
+        section .im {
+        max-width: 800px; 
+        overflow: hidden; 
+        display: flex; 
+        justify-content: center; 
+        }
+
+        section .im1 {
+        max-width: auto; 
+        max-height: 450px;
+        overflow: hidden; 
+        display: flex; 
+        justify-content: center; 
+        }
+        section .im2 {
+        max-width: auto; 
+        max-height: 600px;
+        overflow: hidden; 
+        display: flex; 
+        justify-content: center; 
+        }
+
+        section .im img {
+        width: 100%; 
+        height: auto; 
+        border-radius: 10px; 
+        object-fit: contain; 
+        }
+
+        @media (max-width: 450px) {
+            
+        section h2 {
+            font-size: 25px;
+        }
+        section p {
+            font-size: 20px;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>กฎแห่งซิกม่าผู้ไร้พ่าย</h1>
+    </header>
+
+    <div class="con">
+    <section id="rule1" class="l">
+        <h2>1.พูดเฉพาะเมื่อคำพูดนั้นมีความหมาย (Silence Is Golden)</h2>
+        <p>ซิกม่าจะไม่เปลืองคำพูดในเรื่องไร้สาระ พวกเขาเฝ้ารอจนกว่าจะเจอคนที่คู่ควรกับคำพูดของพวกเขาเท่านั้น</p>
+        <blockquote>"คำพูดของข้าคือดาบ ทุกคำคือการฟาดฟัน ข้าจะไม่เปิดปากโดยไร้เหตุผล"</blockquote>
+        <div class="im">
+            <img src="https://img5.pic.in.th/file/secure-sv1/image_2024-11-18_224355456.png">
+        </div>
+    </section>
+    <div class="row"></div>
+    <section id="rule2" class="l">
+        <h2>2.อยู่ลำพัง แต่ไม่เคยเดียวดาย (Alone But Unbroken)</h2>
+        <p>ความโดดเดี่ยวคือพลัง ซิกม่ารู้ว่าความเงียบสงบในหัวใจนั้นแข็งแกร่งยิ่งกว่าความวุ่นวายของฝูงชน</p>
+        <div class="im"></div>
+        <blockquote>"โลกอาจหมุนไป แต่ข้ายังคงอยู่เดียวดาย ดั่งภูผาที่ไม่มีวันสั่นไหว"</blockquote>
+        <div class="im1">
+            <img src="https://img5.pic.in.th/file/secure-sv1/image_2024-11-19_002902449.png">
+        </div>
+    </section>
+<div class="row"></div>
+    <section id="rule3" class="l">
+        <h2>3.ไม่แสวงหาการยอมรับ แต่ยืนเหนือการตัดสิน (Beyond Judgment)</h2>
+        <p>พวกเขาไม่ต้องการคำยืนยันจากใคร เพราะพลังในตัวเองเพียงพอที่จะพิสูจน์ทุกอย่าง</p>
+        <blockquote>"สายตาของพวกเจ้าไม่มีผลต่อข้า เพราะข้าเดินบนเส้นทางที่ข้าเลือกเอง"</blockquote>
+        <div class="im">
+            <img src="https://img5.pic.in.th/file/secure-sv1/image_2024-11-19_003220127.png">
+        </div>
+    </section>
+<div class="row"></div>
+    <section id="rule4" class="l">
+        <h2>4.ยึดมั่นในศรัทธาของตัวเอง (Faith in One’s Own Path)</h2>
+        <p>ซิกม่ายึดถือแนวทางที่ตัวเองเชื่อ แม้โลกทั้งใบจะหันหลังให้ก็ตาม</p>
+        <blockquote>"แม้ทั้งจักรวาลจะล่มสลาย ข้ายังคงก้าวเดินด้วยเท้าของตัวเอง"</blockquote>
+        <div class="im1">
+            <img src="https://img5.pic.in.th/file/secure-sv1/image_2024-11-19_003648594.png">
+        </div>
+    </section>
+<div class="row"></div>
+    <section id="rule5" class="l">
+        <h2>5.ไม่ต้องการพลังจากใคร แต่คือผู้ให้พลัง (Power from Within)</h2>
+        <p>พวกเขาไม่แสวงหาอำนาจจากภายนอก เพราะอำนาจที่แท้จริงคือพลังใจของตนเอง</p>
+        <blockquote>"ข้าคือจักรวาลในตัวเอง ไม่มีพลังใดที่ข้าต้องการนอกจากพลังของข้าเอง"</blockquote>
+        <div class="im">
+            <img src="https://img2.pic.in.th/pic/image_2024-11-19_004319901.png">
+        </div>
+    </section>
+    
+<div class="row"></div>
+    <section id="rule6" class="l">
+        <h2>6.การกระทำสำคัญกว่าคำพูด (Deeds Over Words)</h2>
+        <p>ซิกม่าปล่อยให้การกระทำสะท้อนตัวตนของพวกเขา โดยไม่ต้องอวดผ่านคำพูด</p>
+        <blockquote>"ข้าจะไม่พูดในสิ่งที่ข้าทำ เพราะโลกจะรู้เองเมื่อมันเกิดขึ้น"</blockquote>
+        <div class="im">
+            <img src="https://img2.pic.in.th/pic/image_2024-11-19_004442512.png">
+        </div>
+    </section>
+<div class="row"></div>
+    <section id="rule7" class="l">
+        <h2>7.ความนิ่งคืออาวุธ (Calmness Is a Weapon)</h2>
+        <p>ในสนามรบแห่งชีวิต ความนิ่งสงบคือดาบคมที่ทำให้ศัตรูหวาดกลัว</p>
+        <blockquote>"ยิ่งศัตรูโกลาหล ข้ายิ่งสงบนิ่ง เพราะข้าคือเงาในยามค่ำคืน"</blockquote>
+        <div class="im">
+            <img src="https://img2.pic.in.th/pic/image_2024-11-19_004919246.png">
+        </div>
+    </section>
+<div class="row"></div>
+    <section id="rule8" class="l">
+        <h2>8.ไม่หลงทางในความวุ่นวาย (Untouched by Chaos)</h2>
+        <p>ซิกม่ายืนอยู่นอกวงจรแห่งความสับสนวุ่นวายของสังคม</p>
+        <blockquote>"เมื่อโลกกำลังลุกไหม้ ข้าจะยืนมองดั่งผู้พิพากษาที่ไร้อารมณ์"</blockquote>
+        <div class="im">
+            <img src="https://img2.pic.in.th/pic/image_2024-11-19_005148145.png">
+        </div>
+    </section>
+<div class="row"></div>
+    <section id="rule9" class="l">
+        <h2>9.สร้างคุณค่าให้ตนเอง (Forge Your Own Worth)</h2>
+        <p>ซิกม่าคือผู้ช่างตีดาบที่สร้างตนเองขึ้นมาใหม่ในทุกวัน</p>
+        <blockquote>"ข้าคือผู้สลักชะตากรรมของตนเอง ดั่งโลหะร้อนที่ถูกตีจนกลายเป็นดาบ"</blockquote>
+        <div class="im1">
+            <img src="https://img2.pic.in.th/pic/image_2024-11-19_005444984.png">
+        </div>
+    </section>
+<div class="row"></div>
+    <section id="rule10" class="l">
+        <h2>10.ไม่พยายาม แต่สำเร็จ (Effortless Mastery)</h2>
+        <p>ซิกม่าทำสิ่งยิ่งใหญ่โดยไม่จำเป็นต้องแสดงออกถึงความพยายาม</p>
+        <blockquote>"พวกเจ้าต่างดิ้นรนเพื่อขึ้นสู่ยอดเขา แต่ข้ายืนอยู่บนนั้นตั้งแต่แรกแล้ว"</blockquote>
+        <div class="im">
+            <img src="https://img5.pic.in.th/file/secure-sv1/image_2024-11-19_005702516.png">
+        </div>
+    </section>
+    </div>
+    <div class="footer">
+        ✨ Discord <a href="https://discord.gg/x9HGCbFEeq">Zipher-Community</a>
+        &mdash;
+        ติดต่อแอดมิน <a href="https://www.facebook.com/profile.php?id=61563542035269">Zipher Cyprex</a> 🛠️
+    </div>
+    <!-- เพิ่มกฎแต่ละข้อในลักษณะเดียวกัน -->
+
+    <script>
+        const sections = document.querySelectorAll("section");
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("visible");
+                    }
+                });
+            },
+            { threshold: 0.1 }
+        );
+
+        sections.forEach((section) => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
